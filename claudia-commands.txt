@@ -1,0 +1,41 @@
+Bash Commands
+
+$ pwd
+Print Working Directory
+
+$ cd [name of directory]
+Change Directory
+
+$ cd ..
+Go to parent directory
+
+$ ls
+List folders and files
+
+$ mkdir [name of folder to create]
+Create a folder
+
+$ touch [name of file to create]
+Creates an empty file
+
+$ code [folder to open]
+Opens Visual Studio Code in the current directory
+
+$ mv [what][to where]
+Moves a file (or directory) or rename a file (or directory)
+
+$ cat [name of file]
+Print content of a (text)file
+
+$ cp [name of file][new location or name]
+Copy a file (or directory)
+
+$ rm [name of file]
+Remove a file (or directory)
+
+$ clear
+Clear the terminal window
+
+$ echo "text" >> [name of file]
+Print text to the file
+
