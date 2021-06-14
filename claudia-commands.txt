@@ -39,3 +39,48 @@ Clear the terminal window
 $ echo "text" >> [name of file]
 Print text to the file
 
+$ git init 
+Initialises  a git repo in your current folder
+
+$ git add [files]
+Adds the given file into staging area
+
+$ git commit -m "commit message"
+Commits all staged files
+
+$ git log
+Shows log of last commits, leave with g
+
+$ git status
+Shows status of current repo
+
+$ git checkout <hash>
+Sets repo in state of commit hash
+
+$ git push
+Pushes commits of local repository in remote repository
+
+$ git pull
+Pulls commits of remote repository into local repository
+
+$ git remote add origin <url>
+Adds remote repository under url to local repositry
+
+$ git clone <url>
+Copies and creates remote repository localy
+
+$ git checkout -b <branch_name>
+Creates new branch and changes folder into that state
+
+$ git checkout <branch_name>
+Checkout branch_name
+
+$ git branch
+Shows branches
+
+$ git merge <branch_name>
+Merges branch_name into current branch
+
+$ git checkout --track origin/<branch>
+Checks our remote branch in local repository and starts tracking
+
